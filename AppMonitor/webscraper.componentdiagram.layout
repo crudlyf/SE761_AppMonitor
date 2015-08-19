@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="webscraper">
+  <componentModelMoniker Id="06c47109-f41d-49e5-953d-18b11d20fe1e" />
+  <nestedChildShapes>
+    <componentShape Id="0c20fd43-d781-4afa-a593-ae0aeb039dda" absoluteBounds="2.25, 5.125, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="909c4bb7-e9c8-4877-82d0-2f9968f64762" LastKnownName="Google Play Scraper" />
+    </componentShape>
+    <componentShape Id="2b54501b-7699-46ef-afac-1516ec63ba68" absoluteBounds="2.25, 2.375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="507f0694-4996-4855-a7a8-811a37366f0f" LastKnownName="Raw Datastore" />
+    </componentShape>
+    <commentShape Id="647669a6-40d7-4816-8fec-5edfd579cfce" absoluteBounds="3.25, 4.125, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="62b8feb9-67df-4cb9-9eaa-c9b7ea9d0522" />
+      <relativeChildShapes />
+    </commentShape>
+    <componentShape Id="4d3e75b0-02db-40da-b26b-ca75c9a01677" absoluteBounds="2.625, 0.5, 2.4513888888888893, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="cbca8c75-4b6c-4b13-b90d-0fddab21817f" LastKnownName="Keyword Search Service" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(3.1875 : 1.45); (3.1875 : 2.375)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="8f9f1c2c-345e-42ad-8482-f94ae4160bde" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="4d3e75b0-02db-40da-b26b-ca75c9a01677" />
+        <componentShapeMoniker Id="2b54501b-7699-46ef-afac-1516ec63ba68" />
+      </nodes>
+    </dependencyConnector>
+    <commentShape Id="39002014-f975-4eb7-9931-a16d11925798" absoluteBounds="3.625, 1.75, 1.25, 0.375" customColor="251, 247, 200">
+      <commentMoniker Id="47c32b4a-e10b-4be7-8240-3bd8fb5ac2b2" />
+      <relativeChildShapes />
+    </commentShape>
+    <dependencyConnector edgePoints="[(2.71875 : 5.125); (2.71875 : 3.325)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="548bdb6c-582e-4933-9e4f-5ab6030fde31" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="0c20fd43-d781-4afa-a593-ae0aeb039dda" />
+        <componentShapeMoniker Id="2b54501b-7699-46ef-afac-1516ec63ba68" />
+      </nodes>
+    </dependencyConnector>
+    <componentShape Id="568cba2f-61b4-41f7-81f6-a48e9153855d" absoluteBounds="5.5, 0.5, 2.4513888888888893, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="51dd00d8-9d09-4bd9-86d3-fdcaeb6e857f" LastKnownName="Average Stars Search Service" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(6.72569444444444 : 1.45); (6.72569444444444 : 2.85); (3.75 : 2.85)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="8638e9e2-7e39-48b0-8ba1-9044b70bee1f" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="568cba2f-61b4-41f7-81f6-a48e9153855d" />
+        <componentShapeMoniker Id="2b54501b-7699-46ef-afac-1516ec63ba68" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</componentDiagram>

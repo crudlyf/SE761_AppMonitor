@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="06c47109-f41d-49e5-953d-18b11d20fe1e" name="webscraper" linkedPackageId="6137f3f4-e207-44a9-a424-03b38320ac96" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <ownedCommentsInternal>
+    <comment Id="62b8feb9-67df-4cb9-9eaa-c9b7ea9d0522">
+      <elementDefinition Id="f194e820-3bcb-4415-8c11-28ee0bb9d640" />
+      <body>?</body>
+    </comment>
+    <comment Id="47c32b4a-e10b-4be7-8240-3bd8fb5ac2b2">
+      <elementDefinition Id="b8be3ebb-c03b-41ef-9046-12606a4d1e6f" />
+      <body>?</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="8ef53e60-784e-4fb3-953e-8490d5d1899a">
+      <profileInstance Id="e2f7a4ed-fafa-4fd9-9e62-cfd47105aedf" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3d7d743d-4981-4925-98a7-f804d1e672e4">
+      <profileInstance Id="c15b4158-5f5e-43e3-abd2-3076c8a3d6e3" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="909c4bb7-e9c8-4877-82d0-2f9968f64762" name="Google Play Scraper" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="93636eaf-2ff8-4cb9-9057-6c7cfe509ff0" />
+        <suppliersInternal>
+          <dependency Id="548bdb6c-582e-4933-9e4f-5ab6030fde31">
+            <componentMoniker Id="507f0694-4996-4855-a7a8-811a37366f0f" LastKnownName="Raw Datastore" />
+            <elementDefinition Id="38454452-5b65-4558-a697-16116d6e4531" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="507f0694-4996-4855-a7a8-811a37366f0f" name="Raw Datastore" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9a365447-6950-498b-8944-b75b51feb873" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="cbca8c75-4b6c-4b13-b90d-0fddab21817f" name="Keyword Search Service" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="76ef8f2a-28d7-438e-8a83-61d5c35d4601" />
+        <suppliersInternal>
+          <dependency Id="8f9f1c2c-345e-42ad-8482-f94ae4160bde">
+            <componentMoniker Id="507f0694-4996-4855-a7a8-811a37366f0f" LastKnownName="Raw Datastore" />
+            <elementDefinition Id="a6df6339-d1fb-41a4-9f83-c3f63d01f5a6" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="51dd00d8-9d09-4bd9-86d3-fdcaeb6e857f" name="Average Stars Search Service" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bb780670-f3d7-4e54-9016-b91c13125f83" />
+        <suppliersInternal>
+          <dependency Id="8638e9e2-7e39-48b0-8ba1-9044b70bee1f">
+            <componentMoniker Id="507f0694-4996-4855-a7a8-811a37366f0f" LastKnownName="Raw Datastore" />
+            <elementDefinition Id="1706f274-ffa7-4a03-91f0-c072dadacfc6" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="6137f3f4-e207-44a9-a424-03b38320ac96" name="AppMonitor">
+    <elementDefinition Id="8d9a0bfe-2e71-4f96-8d3e-9facc75683cb" />
+  </package>
+</componentModel>
